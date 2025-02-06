@@ -2,7 +2,9 @@ baseURL = 'https://blog.angrytech.com/'
 languageCode = 'pt-br'
 title = 'AngryTech Blog'
 theme = 'papermod'
+defaultContentLanguage='pt-br'
 
+enableRobotsTXT = 'true'
 
 
 
