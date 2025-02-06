@@ -4,8 +4,6 @@ title = 'AngryTech Blog'
 theme = 'papermod'
 defaultContentLanguage='pt-br'
 
-enableRobotsTXT = 'true'
-
 
 
 [markup]
