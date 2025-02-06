@@ -1,0 +1,13 @@
+baseURL = 'https://blog.angrytech.com/'
+languageCode = 'pt-br'
+title = 'AngryTech Blog'
+theme = 'papermod'
+
+
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
+
