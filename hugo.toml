@@ -10,4 +10,5 @@ defaultContentLanguage='pt-br'
   [markup.goldmark]
     [markup.goldmark.parser]
       wrapStandAloneImageWithinParagraph = false
-
+[params]
+  ShowPostCovers = true

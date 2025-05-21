@@ -2,6 +2,7 @@
 title = 'Instalando o Makemkv'
 date = 2025-05-20T20:24:28-03:00
 draft = false
+
 +++
 
 Hoje resolvi instalar o [MakeMKV](https://www.makemkv.com/) pra extrair os arquivos dos dvds que tenho aqui em casa, lembrando que esse processo é totalmente legal desde que seja para uso pessoal, que é o meu caso.
@@ -36,12 +37,11 @@ services:
 
 ```
 
-
-![1747783957936](image/makemkv/1747783957936.png)
+![](/1.png)
 
 Após iniciar o container e ir para o endereço no qual o makemkv está exposto, recebo esta tela:
 
-![1747784263805](image/makemkv/1747784263805.png)
+![](/2.png)
 
 Ao que parece, está tudo ok!
 
@@ -49,25 +49,23 @@ Agora é inserir um disco no leitor e ver se será reconhecido.
 
 Inseri um disco da segunda temporada de Doctor Who, uma das minhas séries favoritas.
 
-![1747784527144](image/makemkv/1747784527144.png)
+![](/3.png)
 
 O disco foi reconhecido, agora é só clicar no ícone do leitor e esperar o programa ler os dados.
 
-![1747784586631](image/makemkv/1747784586631.png)
+![](/4.png)
 
 Após isso, o programa vai mostrar quais arquivos foram encontrados, e me dar a opção de escolher quais deles eu quero extrair e qual opção de áudio e legenda.
 
-![1747784689293](image/makemkv/1747784689293.png)
+![](/5.png)
 
 Como já está tudo do jeito que quero, é só clicar no botão `Make MKV` e esperar. Isso pode demorar alguns minutos (ou mais  se for um bluray).
-
-![1747784836111](image/makemkv/1747784836111.png)
+![](/6.png)
 
 13 minutos depois:
-![1747785930730](image/makemkv/1747785930730.png)
+![](/7.png)
 
-Os arquivos foram diretamente para a pasta compartilhada. 
-
-![1747786685500](image/makemkv/1747786685500.png)
+Os arquivos foram diretamente para a pasta compartilhada.
+![](/8.png)
 
 Agora é só renomear e mover para a pasta de séries, e depois assistir no jellyfin.

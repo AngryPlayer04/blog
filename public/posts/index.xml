@@ -6,13 +6,23 @@
     <description>Recent content in Posts on AngryTech Blog</description>
     <generator>Hugo -- 0.147.3</generator>
     <language>pt-br</language>
-    <lastBuildDate>Wed, 05 Feb 2025 21:34:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 20 May 2025 20:24:28 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Instalando o Makemkv</title>
+      <link>http://localhost:1313/posts/makemkv/</link>
+      <pubDate>Tue, 20 May 2025 20:24:28 -0300</pubDate>
+      <guid>http://localhost:1313/posts/makemkv/</guid>
+      <description>&lt;p&gt;Hoje resolvi instalar o &lt;a href=&#34;https://www.makemkv.com/&#34;&gt;MakeMKV&lt;/a&gt; pra extrair os arquivos dos dvds que tenho aqui em casa, lembrando que esse processo é totalmente legal desde que seja para uso pessoal, que é o meu caso.&lt;/p&gt;
+&lt;p&gt;Para isso segui um tutorial em inglês do &lt;a href=&#34;https://www.reddit.com/r/truenas/comments/1hlrtvp/guide_for_makemkv_installation_on_truenas_scale/&#34;&gt;Reddit&lt;/a&gt; de instalação no TrueNas.&lt;/p&gt;
+&lt;p&gt;Como já tenho certo conhecimento em docker, não tive dificuldade em seguir o passo a passo.&lt;/p&gt;
+&lt;p&gt;A minha configuração ficou assim(ocultei o caminho das minhas pastas), removi os dispositivos que não irei precisar, pois o meu leitor se encontra em &lt;code&gt;/dev/sr0&lt;/code&gt; e &lt;code&gt;/dev/sg1&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Olá Mundo</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/olamundo/</link>
       <pubDate>Wed, 05 Feb 2025 21:34:00 -0300</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/olamundo/</guid>
       <description>&lt;h4 id=&#34;olá-a-todos-meu-nome-é-cássio&#34;&gt;Olá a todos, meu nome é Cássio&lt;/h4&gt;
 &lt;p&gt;Decidi criar este blog como forma de documentar minha tragetória na tecnologia e principalmente sobre homelab/selfhost, além de ajudar outros que possam precisar.&lt;/p&gt;
 &lt;p&gt;Tenho em casa um servidor com &lt;a href=&#34;https://www.truenas.com/truenas-scale/&#34; title=&#34;Página do TrueNas Scale&#34;&gt;TrueNas Scale&lt;/a&gt; rodando num AMD Athlon A800 (um dual core que dá conta do recado) com 16Gb de RAM e dois HDs de 1TB em mirror.&lt;/p&gt;

@@ -5,11 +5,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Posts | AngryTech Blog</title>
+<title>Instalando o Makemkv | AngryTech Blog</title>
 <meta name="keywords" content="">
-<meta name="description" content="Posts - AngryTech Blog">
+<meta name="description" content="Instalando o Makemkv
+Hoje resolvi instalar o MakeMKV pra extrair os arquivos dos dvds que tenho aqui em casa, lembrando que esse processo é totalmente legal desde que seja para uso pessoal, que é o meu caso.
+Para isso segui um tutorial em inglês do Reddit de instalação no TrueNas.
+Como já tenho certo conhecimento em docker, não tive dificuldade em seguir o passo a passo.
+A minha configuração ficou assim(ocultei o caminho das minhas pastas), removi os dispositivos que não irei precisar, pois o meu leitor se encontra em /dev/sr0 e /dev/sg1.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/">
+<link rel="canonical" href="http://localhost:1313/makemkv/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +22,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml">
-<link rel="alternate" hreflang="pt-br" href="http://localhost:1313/posts/">
+<link rel="alternate" hreflang="pt-br" href="http://localhost:1313/makemkv/">
 <noscript>
     <style>
         #theme-toggle,
@@ -59,7 +62,7 @@
 </noscript>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -102,43 +105,62 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header">
-  <h1>
-    Posts
-  </h1>
-</header>
+<main class="main">
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Instalando o Makemkv
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Hoje resolvi instalar o MakeMKV pra extrair os arquivos dos dvds que tenho aqui em casa, lembrando que esse processo é totalmente legal desde que seja para uso pessoal, que é o meu caso.
-Para isso segui um tutorial em inglês do Reddit de instalação no TrueNas.
-Como já tenho certo conhecimento em docker, não tive dificuldade em seguir o passo a passo.
-A minha configuração ficou assim(ocultei o caminho das minhas pastas), removi os dispositivos que não irei precisar, pois o meu leitor se encontra em /dev/sr0 e /dev/sg1.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-05-20 20:24:28 -0300 -03'>maio 20, 2025</span></footer>
-  <a class="entry-link" aria-label="post link to Instalando o Makemkv" href="http://localhost:1313/posts/makemkv/"></a>
-</article>
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Instalando o Makemkv
+    </h1>
+    <div class="post-meta"><span title='2025-05-20 20:24:28 -0300 -03'>maio 20, 2025</span>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Olá Mundo
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Olá a todos, meu nome é Cássio Decidi criar este blog como forma de documentar minha tragetória na tecnologia e principalmente sobre homelab/selfhost, além de ajudar outros que possam precisar.
-Tenho em casa um servidor com TrueNas Scale rodando num AMD Athlon A800 (um dual core que dá conta do recado) com 16Gb de RAM e dois HDs de 1TB em mirror.
-Tenho rodando:
-Adguard Home - Bloqueio de anúncios via DNS; Jellyfin - Servidor de filmes e séries; Homarr - Homepage; Navidrome - Servidor de música; Wireguard - VPN para acessar remotamente meu servidor; Gitea - Servidor Git para backups; Syncthing - Programa para sincronização de arquivos. Devo demorar pra postar novamente, já que mexo nele uma vez ou outra.
-...</p>
+</div>
+  </header> 
+  <div class="post-content"><h3 id="instalando-o-makemkv">Instalando o Makemkv<a hidden class="anchor" aria-hidden="true" href="#instalando-o-makemkv">#</a></h3>
+<p>Hoje resolvi instalar o <a href="https://www.makemkv.com/">MakeMKV</a> pra extrair os arquivos dos dvds que tenho aqui em casa, lembrando que esse processo é totalmente legal desde que seja para uso pessoal, que é o meu caso.</p>
+<p>Para isso segui um tutorial em inglês do <a href="https://www.reddit.com/r/truenas/comments/1hlrtvp/guide_for_makemkv_installation_on_truenas_scale/">Reddit</a> de instalação no TrueNas.</p>
+<p>Como já tenho certo conhecimento em docker, não tive dificuldade em seguir o passo a passo.</p>
+<p>A minha configuração ficou assim(ocultei o caminho das minhas pastas), removi os dispositivos que não irei precisar, pois o meu leitor se encontra em <code>/dev/sr0</code> e <code>/dev/sg1</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">version</span>: <span style="color:#e6db74">&#39;3&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">services</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">makemkv</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">image</span>: <span style="color:#ae81ff">jlesage/makemkv</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">ports</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#e6db74">&#34;5800:5800&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">volumes</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#e6db74">&#34;/mnt/XXXXXXX/makemkv:/config:rw&#34;</span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#e6db74">&#34;/mnt/XXXXXXX/makemkv/storage:/storage:ro&#34;</span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#e6db74">&#34;/mnt/XXXXXXX/makemkv:/output:rw&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">devices</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#e6db74">&#34;/dev/sr0:/dev/sr0&#34;</span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#e6db74">&#34;/dev/sg1:/dev/sg1&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">environment</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#e6db74">&#34;MAKEMKV_KEY=BETA&#34;</span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#e6db74">&#34;DARK_MODE=1&#34;</span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#e6db74">&#34;USER_ID=568&#34;</span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#e6db74">&#34;GROUP_ID=568&#34;</span>
+</span></span></code></pre></div><img alt="1747783957936" loading="lazy" src="image/makemkv/1747783957936.png"><p>Após iniciar o container e ir para o endereço no qual o makemkv está exposto, recebo esta tela:</p>
+<img alt="1747784263805" loading="lazy" src="image/makemkv/1747784263805.png"><p>Ao que parece, está tudo ok!</p>
+<p>Agora é inserir um disco no leitor e ver se será reconhecido.</p>
+<p>Inseri um disco da segunda temporada de Doctor Who, uma das minhas séries favoritas.</p>
+<img alt="1747784527144" loading="lazy" src="image/makemkv/1747784527144.png"><p>O disco foi reconhecido, agora é só clicar no ícone do leitor e esperar o programa ler os dados.</p>
+<img alt="1747784586631" loading="lazy" src="image/makemkv/1747784586631.png"><p>Após isso, o programa vai mostrar quais arquivos foram encontrados, e me dar a opção de escolher quais deles eu quero extrair e qual opção de áudio e legenda.</p>
+<img alt="1747784689293" loading="lazy" src="image/makemkv/1747784689293.png"><p>Como já está tudo do jeito que quero, é só clicar no botão <code>Make MKV</code> e esperar. Isso pode demorar alguns minutos (ou mais  se for um bluray).</p>
+<img alt="1747784836111" loading="lazy" src="image/makemkv/1747784836111.png"><p>13 minutos depois:
+<img alt="1747785930730" loading="lazy" src="image/makemkv/1747785930730.png"></p>
+<p>Os arquivos foram diretamente para a pasta compartilhada.</p>
+<img alt="1747786685500" loading="lazy" src="image/makemkv/1747786685500.png"><p>Agora é só renomear e mover para a pasta de séries, e depois assistir no jellyfin.</p>
+
+
   </div>
-  <footer class="entry-footer"><span title='2025-02-05 21:34:00 -0300 -03'>fevereiro 5, 2025</span></footer>
-  <a class="entry-link" aria-label="post link to Olá Mundo" href="http://localhost:1313/posts/olamundo/"></a>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
 </article>
     </main>
     
