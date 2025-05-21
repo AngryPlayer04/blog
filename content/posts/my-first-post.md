@@ -22,4 +22,4 @@ Tenho rodando:
 
 ![Meu servidor](https://imgur.com/Orhb6rD.jpeg)
 
-Espero que este post tenha despertado sua curiosidade.
+Devo demorar pra postar novamente, já que mexo nele uma vez ou outra.

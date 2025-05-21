@@ -2,11 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on AngryTech Blog</title>
-    <link>https://blog.angrytech.com/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on AngryTech Blog</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.147.3</generator>
     <language>pt-br</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://blog.angrytech.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Feb 2025 21:34:00 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Olá Mundo</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Wed, 05 Feb 2025 21:34:00 -0300</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;h4 id=&#34;olá-a-todos-meu-nome-é-cássio&#34;&gt;Olá a todos, meu nome é Cássio&lt;/h4&gt;
+&lt;p&gt;Decidi criar este blog como forma de documentar minha tragetória na tecnologia e principalmente sobre homelab/selfhost, além de ajudar outros que possam precisar.&lt;/p&gt;
+&lt;p&gt;Tenho em casa um servidor com &lt;a href=&#34;https://www.truenas.com/truenas-scale/&#34; title=&#34;Página do TrueNas Scale&#34;&gt;TrueNas Scale&lt;/a&gt; rodando num AMD Athlon A800 (um dual core que dá conta do recado) com 16Gb de RAM e dois HDs de 1TB em mirror.&lt;/p&gt;
+&lt;p&gt;Tenho rodando:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://adguard.com/pt_br/adguard-home/overview.html&#34;&gt;Adguard Home&lt;/a&gt; - Bloqueio de anúncios via DNS;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jellyfin.org/&#34;&gt;Jellyfin&lt;/a&gt; - Servidor de filmes e séries;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://homarr.dev/&#34;&gt;Homarr&lt;/a&gt; - Homepage;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.navidrome.org/&#34;&gt;Navidrome&lt;/a&gt; - Servidor de música;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wireguard.com/&#34;&gt;Wireguard&lt;/a&gt; - VPN para acessar remotamente meu servidor;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://about.gitea.com/&#34;&gt;Gitea&lt;/a&gt; - Servidor Git para backups;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://syncthing.net/&#34;&gt;Syncthing&lt;/a&gt; - Programa para sincronização de arquivos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img alt=&#34;Meu servidor&#34; loading=&#34;lazy&#34; src=&#34;https://imgur.com/Orhb6rD.jpeg&#34;&gt;&lt;p&gt;Devo demorar pra postar novamente, já que mexo nele uma vez ou outra.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
