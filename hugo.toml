@@ -1,6 +1,6 @@
-baseURL = 'https://blog.angrytech.com/'
+baseURL = 'https://blog.cassionhieg.live/'
 languageCode = 'pt-br'
-title = 'AngryTech Blog'
+title = 'Blog do Cássio'
 theme = 'papermod'
 defaultContentLanguage='pt-br'
 
