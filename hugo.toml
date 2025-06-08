@@ -3,6 +3,7 @@ languageCode = 'pt-br'
 title = 'Blog do Cássio'
 theme = 'papermod'
 defaultContentLanguage = 'pt-br'
+enableRobotsTXT = true
 
 [params]
   # Configurações do PaperMod (homeInfo)
