@@ -4,10 +4,7 @@ title = 'Blog do Cássio'
 theme = 'papermod'
 defaultContentLanguage='pt-br'
 
-params:
-  homeInfoParams:
-    Title: Bem vindo(a)!
-    Content: Este é o meu blog, criado com o intuito de anotar o que faço na área de tecnologia.
+
 
 
 [markup]
