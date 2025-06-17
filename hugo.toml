@@ -17,6 +17,10 @@ enableRobotsTXT = true
       name = "Início"
       url = "https://cassionhieg.live"
 
+    [params.cover]
+    hidden = true  
+    
+
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
