@@ -6,20 +6,47 @@ defaultContentLanguage = 'pt-br'
 enableRobotsTXT = true
 
 [params]
-  # Configurações do PaperMod (homeInfo)
+  # ======================
+  # Configurações Gerais
+  # ======================
+  defaultTheme = "auto"       # "light", "dark" ou "auto" (recomendado)
+  description = "Blog técnico sobre tecnologia e desenvolvimento"
+
+  # ======================
+  # HomeInfo (Seção de Boas-Vindas)
+  # ======================
   [params.homeInfoParams]
-    Title = 'Bem vindo(a)!'
-    Content = 'Este é o meu blog, criado com o intuito de anotar o que faço na área de tecnologia.'
+    Title = "Bem vindo(a)!"
+    Content = "Este é o meu blog, criado com o intuito de anotar o que faço na área de tecnologia."
     ShowShareButtons = true
+    TitleEmoji = "👋"        # Opcional: adiciona um emoji ao título
     
-    # Correção: buttons deve ser uma tabela (array de tabelas no TOML)
     [[params.homeInfoParams.buttons]]
       name = "Início"
       url = "https://cassionhieg.live"
-
-    [params.cover]
-    hidden = true  
+      icon = "fa-home"       # Ícone do FontAwesome (opcional)
     
+    [[params.homeInfoParams.buttons]]
+      name = "GitHub"
+      url = "https://github.com/AngryPlayer04"
+      icon = "fa-github"
+
+  # ======================
+  # Capas dos Posts
+  # ======================
+  [params.cover]
+    hidden = true            # Ocultar capas por padrão
+    # default = "/images/default-cover.jpg"  # Descomente se quiser uma capa padrão
+    hiddenInList = false     # Mostrar capas em listagens
+
+  # ======================
+  # Configuração de Pesquisa
+  # ======================
+  [params.search]
+    enable = true
+    type = "json"
+    placeholder = "Pesquisar posts..."
+    maxResults = 5           # Número máximo de resultados exibidos
 
 
 [outputs]
