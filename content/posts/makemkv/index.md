@@ -7,6 +7,8 @@ draft = false
   alt = "Logo do MakeMKV"
   width = 55           # Largura máxima em pixels
   height = 55
+  responsiveImages = true
+  hiddenInSingle = true
 
 tags = ["video", "conversão", "tutorial"]
 
