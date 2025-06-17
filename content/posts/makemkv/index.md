@@ -2,7 +2,7 @@
 title = 'Instalando o Makemkv'
 date = 2025-05-20T20:24:28-03:00
 draft = false
-images: ["/public/makemkv.png"]
+images = ["/public/makemkv.png"]
   
 
 tags = ["video", "conversão", "tutorial"]
