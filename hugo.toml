@@ -8,8 +8,8 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    name = "🔍"
-    url = "#search"
+    name = "Pesquisar"
+    url = "search"
     weight = 10
     pre = "<i class='fas fa-search'></i>"
 
