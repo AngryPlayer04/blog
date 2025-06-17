@@ -43,6 +43,18 @@ enableRobotsTXT = true
       icon = "fa-github"
       weight = 2
 
+  [params.article]
+    ShowShareButtons = true  # Para artigos/posts
+    ShowToc = true
+
+  [params.share]
+    enable = true
+    Twitter = true
+    Linkedin = true
+    WhatsApp = true
+    Telegram = true
+
+
   # ======================
   # Capas dos Posts
   # ======================
