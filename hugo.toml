@@ -9,6 +9,7 @@ enableRobotsTXT = true
 [menu]
   [[menu.main]]
     name = "Pesquisar"
+    
     url = "search"
     weight = 10
     pre = "<i class='fas fa-search'></i>"
@@ -36,7 +37,7 @@ enableRobotsTXT = true
       icon = "fa-home"
       weight = 1
     
-    [[params.homeInfoParams.buttons]]
+    
       name = "GitHub"
       url = "https://github.com/AngryPlayer04"
       icon = "fa-github"
