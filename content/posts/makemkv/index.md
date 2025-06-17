@@ -3,7 +3,7 @@ title = 'Instalando o Makemkv'
 date = 2025-05-20T20:24:28-03:00
 draft = false
 [cover]
-  image = "/makemkv.png"  # Caminho corrigido (remova '/public')
+  images: ["/public/makemkv.png"]
   alt = "Logo do MakeMKV"
   width = 55           # Largura máxima em pixels
   height = 55
