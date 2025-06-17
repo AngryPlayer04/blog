@@ -2,13 +2,8 @@
 title = 'Instalando o Makemkv'
 date = 2025-05-20T20:24:28-03:00
 draft = false
-[cover]
-  images: ["/public/makemkv.png"]
-  alt = "Logo do MakeMKV"
-  width = 55           # Largura máxima em pixels
-  height = 55
-  responsiveImages = true
-  hiddenInSingle = true
+images: ["/public/makemkv.png"]
+  
 
 tags = ["video", "conversão", "tutorial"]
 
