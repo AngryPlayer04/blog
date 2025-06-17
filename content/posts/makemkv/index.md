@@ -5,6 +5,8 @@ draft = false
 [cover]
   image = "/makemkv.png"  # Caminho corrigido (remova '/public')
   alt = "Logo do MakeMKV"
+  width = 55           # Largura máxima em pixels
+  height = 55
 
 tags = ["video", "conversão", "tutorial"]
 
