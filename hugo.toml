@@ -11,13 +11,13 @@ enableRobotsTXT = true
   # ======================
   defaultTheme = "auto"
   description = "Blog do Cássio"
-
+  editURL = "https://github.com/AngryPlayer04/blog/edit/main/content/" # Opcional: link para edição
 
   # ======================
   # HomeInfo (Seção de Boas-Vindas)
   # ======================
   [params.homeInfoParams]
-    Title = "Bem vindo(a)! 👋" # Emoji direto no título (alternativa ao TitleEmoji)
+    Title = "Bem vindo(a)! 👋"
     Content = "Este é o meu blog, criado com o intuito de anotar o que faço na área de tecnologia."
     ShowHomeButtons = true # Botões abaixo do texto
     ShowShareButtons = true # Botões de compartilhamento
@@ -52,7 +52,7 @@ enableRobotsTXT = true
     placeholder = "Pesquisar posts..."
     maxResults = 5
     [params.search.advanced]
-      includeContent = true # Busca também no conteúdo, não só no título
+      includeContent = true 
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
