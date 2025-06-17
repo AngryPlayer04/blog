@@ -9,35 +9,39 @@ enableRobotsTXT = true
   # ======================
   # Configurações Gerais
   # ======================
-  defaultTheme = "auto"       # "light", "dark" ou "auto" (recomendado)
-  description = "Blog técnico sobre tecnologia e desenvolvimento"
+  defaultTheme = "auto"
+  description = "Blog do Cássio"
+
 
   # ======================
   # HomeInfo (Seção de Boas-Vindas)
   # ======================
   [params.homeInfoParams]
-    Title = "Bem vindo(a)!"
+    Title = "Bem vindo(a)! 👋" # Emoji direto no título (alternativa ao TitleEmoji)
     Content = "Este é o meu blog, criado com o intuito de anotar o que faço na área de tecnologia."
-    ShowShareButtons = true
-    TitleEmoji = "👋"        # Opcional: adiciona um emoji ao título
+    ShowHomeButtons = true # Botões abaixo do texto
+    ShowShareButtons = true # Botões de compartilhamento
     
     [[params.homeInfoParams.buttons]]
       name = "Início"
       url = "https://cassionhieg.live"
-      icon = "fa-home"       # Ícone do FontAwesome (opcional)
+      icon = "fa-home"
+      weight = 1
     
     [[params.homeInfoParams.buttons]]
       name = "GitHub"
       url = "https://github.com/AngryPlayer04"
       icon = "fa-github"
+      weight = 2
 
   # ======================
   # Capas dos Posts
   # ======================
   [params.cover]
-    hidden = true            # Ocultar capas por padrão
-    # default = "/images/default-cover.jpg"  # Descomente se quiser uma capa padrão
-    hiddenInList = false     # Mostrar capas em listagens
+    hidden = true
+    # default = "/images/default-cover.jpg"
+    hiddenInList = false
+    responsiveImages = true # Ativa redimensionamento automático
 
   # ======================
   # Configuração de Pesquisa
@@ -46,13 +50,21 @@ enableRobotsTXT = true
     enable = true
     type = "json"
     placeholder = "Pesquisar posts..."
-    maxResults = 5           # Número máximo de resultados exibidos
-
+    maxResults = 5
+    [params.search.advanced]
+      includeContent = true # Busca também no conteúdo, não só no título
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # Permite HTML raw quando necessário
     [markup.goldmark.parser]
       wrapStandAloneImageWithinParagraph = false
+      autoHeadingID = true # IDs automáticos para cabeçalhos
+
+[imaging]
+  quality = 85 # Qualidade das imagens processadas
+  resampleFilter = "Lanczos" # Algoritmo de redimensionamento
