@@ -17,6 +17,10 @@ enableRobotsTXT = true
       name = "Início"
       url = "https://cassionhieg.live"
 
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.parser]
