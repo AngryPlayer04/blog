@@ -5,6 +5,14 @@ theme = 'papermod'
 defaultContentLanguage = 'pt-br'
 enableRobotsTXT = true
 
+
+[menu]
+  [[menu.main]]
+    name = "🔍"
+    url = "#search"
+    weight = 10
+    pre = "<i class='fas fa-search'></i>"
+
 [params]
   # ======================
   # Configurações Gerais
@@ -56,6 +64,12 @@ enableRobotsTXT = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+
+[outputFormats]
+  [outputFormats.JSON]
+    baseName = "index"
+    
 
 [markup]
   [markup.goldmark]
