@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video on Blog do Cássio</title>
+    <link>http://localhost:1313/tags/video/</link>
+    <description>Recent content in Video on Blog do Cássio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Tue, 20 May 2025 20:24:28 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalando o Makemkv</title>
+      <link>http://localhost:1313/posts/makemkv/</link>
+      <pubDate>Tue, 20 May 2025 20:24:28 -0300</pubDate>
+      <guid>http://localhost:1313/posts/makemkv/</guid>
+      <description>Hoje resolvi instalar o MakeMKV pra extrair os arquivos dos dvds que tenho aqui em casa, lembrando que esse processo é totalmente legal desde que seja para uso pessoal, que é o meu caso.&#xA;Para isso segui um tutorial em inglês do Reddit de instalação no TrueNas.&#xA;Como já tenho certo conhecimento em docker, não tive dificuldade em seguir o passo a passo.&#xA;A minha configuração ficou assim(ocultei o caminho das minhas pastas), removi os dispositivos que não irei precisar, pois o meu leitor se encontra em /dev/sr0 e /dev/sg1.</description>
+    </item>
+  </channel>
+</rss>

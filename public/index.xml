@@ -1,42 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AngryTech Blog</title>
+    <title>Blog do Cássio</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on AngryTech Blog</description>
-    <generator>Hugo -- 0.147.3</generator>
+    <description>Recent content on Blog do Cássio</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 20 May 2025 20:24:28 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 23:03:03 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ativando o Wake On Lan via systemctl</title>
+      <link>http://localhost:1313/posts/wakeonlan/wakeonlan/</link>
+      <pubDate>Mon, 19 Jan 2026 23:03:03 -0300</pubDate>
+      <guid>http://localhost:1313/posts/wakeonlan/wakeonlan/</guid>
+      <description>No Linux, nem sempre o wake on lan fica ativado após um reboot, e para contornar esse problema, eu descobri que criando um serviço no systemctl, eu consigo deixar o Wake on Lan sempre ativado. Para isso criei um arquivo chamado wakeonlan.service na pasta /usr/lib/systemd/system/ contendo o seguinte:&#xA;[Unit] Description=Enable Wake On Lan [Service] Type=oneshot ExecStart=/usr/bin/nmcli connection modify &amp;#39;nome-da-minha-conexao&amp;#39; 802-3-ethernet.wake-on-lan magic [Install] WantedBy=basic.target Usei o nmcli, já que o ethool não é mais tanto recomendando para gerenciar as conexões de rede, e também porque só consegui fazer funcionar pelo nmcli.</description>
+    </item>
     <item>
       <title>Instalando o Makemkv</title>
       <link>http://localhost:1313/posts/makemkv/</link>
       <pubDate>Tue, 20 May 2025 20:24:28 -0300</pubDate>
       <guid>http://localhost:1313/posts/makemkv/</guid>
-      <description>&lt;p&gt;Hoje resolvi instalar o &lt;a href=&#34;https://www.makemkv.com/&#34;&gt;MakeMKV&lt;/a&gt; pra extrair os arquivos dos dvds que tenho aqui em casa, lembrando que esse processo é totalmente legal desde que seja para uso pessoal, que é o meu caso.&lt;/p&gt;
-&lt;p&gt;Para isso segui um tutorial em inglês do &lt;a href=&#34;https://www.reddit.com/r/truenas/comments/1hlrtvp/guide_for_makemkv_installation_on_truenas_scale/&#34;&gt;Reddit&lt;/a&gt; de instalação no TrueNas.&lt;/p&gt;
-&lt;p&gt;Como já tenho certo conhecimento em docker, não tive dificuldade em seguir o passo a passo.&lt;/p&gt;
-&lt;p&gt;A minha configuração ficou assim(ocultei o caminho das minhas pastas), removi os dispositivos que não irei precisar, pois o meu leitor se encontra em &lt;code&gt;/dev/sr0&lt;/code&gt; e &lt;code&gt;/dev/sg1&lt;/code&gt;.&lt;/p&gt;</description>
+      <description>Hoje resolvi instalar o MakeMKV pra extrair os arquivos dos dvds que tenho aqui em casa, lembrando que esse processo é totalmente legal desde que seja para uso pessoal, que é o meu caso.&#xA;Para isso segui um tutorial em inglês do Reddit de instalação no TrueNas.&#xA;Como já tenho certo conhecimento em docker, não tive dificuldade em seguir o passo a passo.&#xA;A minha configuração ficou assim(ocultei o caminho das minhas pastas), removi os dispositivos que não irei precisar, pois o meu leitor se encontra em /dev/sr0 e /dev/sg1.</description>
     </item>
     <item>
       <title>Olá Mundo</title>
       <link>http://localhost:1313/posts/olamundo/</link>
       <pubDate>Wed, 05 Feb 2025 21:34:00 -0300</pubDate>
       <guid>http://localhost:1313/posts/olamundo/</guid>
-      <description>&lt;h4 id=&#34;olá-a-todos-meu-nome-é-cássio&#34;&gt;Olá a todos, meu nome é Cássio&lt;/h4&gt;
-&lt;p&gt;Decidi criar este blog como forma de documentar minha tragetória na tecnologia e principalmente sobre homelab/selfhost, além de ajudar outros que possam precisar.&lt;/p&gt;
-&lt;p&gt;Tenho em casa um servidor com &lt;a href=&#34;https://www.truenas.com/truenas-scale/&#34; title=&#34;Página do TrueNas Scale&#34;&gt;TrueNas Scale&lt;/a&gt; rodando num AMD Athlon A800 (um dual core que dá conta do recado) com 16Gb de RAM e dois HDs de 1TB em mirror.&lt;/p&gt;
-&lt;p&gt;Tenho rodando:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://adguard.com/pt_br/adguard-home/overview.html&#34;&gt;Adguard Home&lt;/a&gt; - Bloqueio de anúncios via DNS;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jellyfin.org/&#34;&gt;Jellyfin&lt;/a&gt; - Servidor de filmes e séries;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://homarr.dev/&#34;&gt;Homarr&lt;/a&gt; - Homepage;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.navidrome.org/&#34;&gt;Navidrome&lt;/a&gt; - Servidor de música;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wireguard.com/&#34;&gt;Wireguard&lt;/a&gt; - VPN para acessar remotamente meu servidor;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://about.gitea.com/&#34;&gt;Gitea&lt;/a&gt; - Servidor Git para backups;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://syncthing.net/&#34;&gt;Syncthing&lt;/a&gt; - Programa para sincronização de arquivos.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;img alt=&#34;Meu servidor&#34; loading=&#34;lazy&#34; src=&#34;https://imgur.com/Orhb6rD.jpeg&#34;&gt;&lt;p&gt;Devo demorar pra postar novamente, já que mexo nele uma vez ou outra.&lt;/p&gt;</description>
+      <description>Olá a todos, meu nome é Cássio Decidi criar este blog como forma de documentar minha tragetória na tecnologia e principalmente sobre homelab/selfhost, além de ajudar outros que possam precisar.&#xA;Tenho em casa um servidor com TrueNas Scale rodando num AMD Athlon A800 (um dual core que dá conta do recado) com 16Gb de RAM e dois HDs de 1TB em mirror.&#xA;Tenho rodando:&#xA;Adguard Home - Bloqueio de anúncios via DNS; Jellyfin - Servidor de filmes e séries; Homarr - Homepage; Navidrome - Servidor de música; Wireguard - VPN para acessar remotamente meu servidor; Gitea - Servidor Git para backups; Syncthing - Programa para sincronização de arquivos.</description>
+    </item>
+    <item>
+      <title>Pesquisar</title>
+      <link>http://localhost:1313/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/search/</guid>
+      <description>search</description>
     </item>
   </channel>
 </rss>
