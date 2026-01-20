@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Blog do Cássio</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://blog.cassionhieg.live/tags/</link>
     <description>Recent content in Tags on Blog do Cássio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Tue, 20 May 2025 20:24:28 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.cassionhieg.live/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conversão</title>
-      <link>http://localhost:1313/tags/convers%C3%A3o/</link>
+      <link>https://blog.cassionhieg.live/tags/convers%C3%A3o/</link>
       <pubDate>Tue, 20 May 2025 20:24:28 -0300</pubDate>
-      <guid>http://localhost:1313/tags/convers%C3%A3o/</guid>
+      <guid>https://blog.cassionhieg.live/tags/convers%C3%A3o/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorial</title>
-      <link>http://localhost:1313/tags/tutorial/</link>
+      <link>https://blog.cassionhieg.live/tags/tutorial/</link>
       <pubDate>Tue, 20 May 2025 20:24:28 -0300</pubDate>
-      <guid>http://localhost:1313/tags/tutorial/</guid>
+      <guid>https://blog.cassionhieg.live/tags/tutorial/</guid>
       <description></description>
     </item>
     <item>
       <title>Video</title>
-      <link>http://localhost:1313/tags/video/</link>
+      <link>https://blog.cassionhieg.live/tags/video/</link>
       <pubDate>Tue, 20 May 2025 20:24:28 -0300</pubDate>
-      <guid>http://localhost:1313/tags/video/</guid>
+      <guid>https://blog.cassionhieg.live/tags/video/</guid>
       <description></description>
     </item>
   </channel>

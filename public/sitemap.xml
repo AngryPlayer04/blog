@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/wakeonlan/wakeonlan/</loc>
+    <loc>https://blog.cassionhieg.live/posts/wakeonlan/wakeonlan/</loc>
     <lastmod>2026-01-19T23:03:03-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://blog.cassionhieg.live/</loc>
     <lastmod>2026-01-19T23:03:03-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://blog.cassionhieg.live/posts/</loc>
     <lastmod>2026-01-19T23:03:03-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/convers%C3%A3o/</loc>
+    <loc>https://blog.cassionhieg.live/tags/convers%C3%A3o/</loc>
     <lastmod>2025-05-20T20:24:28-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/makemkv/</loc>
+    <loc>https://blog.cassionhieg.live/posts/makemkv/</loc>
     <lastmod>2025-05-20T20:24:28-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://blog.cassionhieg.live/tags/</loc>
     <lastmod>2025-05-20T20:24:28-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tutorial/</loc>
+    <loc>https://blog.cassionhieg.live/tags/tutorial/</loc>
     <lastmod>2025-05-20T20:24:28-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/video/</loc>
+    <loc>https://blog.cassionhieg.live/tags/video/</loc>
     <lastmod>2025-05-20T20:24:28-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/olamundo/</loc>
+    <loc>https://blog.cassionhieg.live/posts/olamundo/</loc>
     <lastmod>2025-02-05T21:34:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://blog.cassionhieg.live/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://blog.cassionhieg.live/search/</loc>
   </url>
 </urlset>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Blog do Cássio</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://blog.cassionhieg.live/posts/</link>
     <description>Recent content in Posts on Blog do Cássio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Mon, 19 Jan 2026 23:03:03 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.cassionhieg.live/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ativando o Wake On Lan via systemctl</title>
-      <link>http://localhost:1313/posts/wakeonlan/wakeonlan/</link>
+      <link>https://blog.cassionhieg.live/posts/wakeonlan/wakeonlan/</link>
       <pubDate>Mon, 19 Jan 2026 23:03:03 -0300</pubDate>
-      <guid>http://localhost:1313/posts/wakeonlan/wakeonlan/</guid>
+      <guid>https://blog.cassionhieg.live/posts/wakeonlan/wakeonlan/</guid>
       <description>No Linux, nem sempre o wake on lan fica ativado após um reboot, e para contornar esse problema, eu descobri que criando um serviço no systemctl, eu consigo deixar o Wake on Lan sempre ativado. Para isso criei um arquivo chamado wakeonlan.service na pasta /usr/lib/systemd/system/ contendo o seguinte:&#xA;[Unit] Description=Enable Wake On Lan [Service] Type=oneshot ExecStart=/usr/bin/nmcli connection modify &amp;#39;nome-da-minha-conexao&amp;#39; 802-3-ethernet.wake-on-lan magic [Install] WantedBy=basic.target Usei o nmcli, já que o ethool não é mais tanto recomendando para gerenciar as conexões de rede, e também porque só consegui fazer funcionar pelo nmcli.</description>
     </item>
     <item>
       <title>Instalando o Makemkv</title>
-      <link>http://localhost:1313/posts/makemkv/</link>
+      <link>https://blog.cassionhieg.live/posts/makemkv/</link>
       <pubDate>Tue, 20 May 2025 20:24:28 -0300</pubDate>
-      <guid>http://localhost:1313/posts/makemkv/</guid>
+      <guid>https://blog.cassionhieg.live/posts/makemkv/</guid>
       <description>Hoje resolvi instalar o MakeMKV pra extrair os arquivos dos dvds que tenho aqui em casa, lembrando que esse processo é totalmente legal desde que seja para uso pessoal, que é o meu caso.&#xA;Para isso segui um tutorial em inglês do Reddit de instalação no TrueNas.&#xA;Como já tenho certo conhecimento em docker, não tive dificuldade em seguir o passo a passo.&#xA;A minha configuração ficou assim(ocultei o caminho das minhas pastas), removi os dispositivos que não irei precisar, pois o meu leitor se encontra em /dev/sr0 e /dev/sg1.</description>
     </item>
     <item>
       <title>Olá Mundo</title>
-      <link>http://localhost:1313/posts/olamundo/</link>
+      <link>https://blog.cassionhieg.live/posts/olamundo/</link>
       <pubDate>Wed, 05 Feb 2025 21:34:00 -0300</pubDate>
-      <guid>http://localhost:1313/posts/olamundo/</guid>
+      <guid>https://blog.cassionhieg.live/posts/olamundo/</guid>
       <description>Olá a todos, meu nome é Cássio Decidi criar este blog como forma de documentar minha tragetória na tecnologia e principalmente sobre homelab/selfhost, além de ajudar outros que possam precisar.&#xA;Tenho em casa um servidor com TrueNas Scale rodando num AMD Athlon A800 (um dual core que dá conta do recado) com 16Gb de RAM e dois HDs de 1TB em mirror.&#xA;Tenho rodando:&#xA;Adguard Home - Bloqueio de anúncios via DNS; Jellyfin - Servidor de filmes e séries; Homarr - Homepage; Navidrome - Servidor de música; Wireguard - VPN para acessar remotamente meu servidor; Gitea - Servidor Git para backups; Syncthing - Programa para sincronização de arquivos.</description>
     </item>
   </channel>
