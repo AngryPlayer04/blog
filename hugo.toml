@@ -9,7 +9,6 @@ enableRobotsTXT = true
 [menu]
   [[menu.main]]
     name = "Pesquisar"
-    
     url = "search"
     weight = 10
     pre = "<i class='fas fa-search'></i>"
@@ -81,7 +80,7 @@ enableRobotsTXT = true
 
 [outputFormats]
   [outputFormats.JSON]
-    baseName = "index"
+    baseName = "rss"
     
 
 [markup]
