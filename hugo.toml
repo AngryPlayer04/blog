@@ -11,7 +11,10 @@ enableRobotsTXT = true
     name = "Pesquisar"
     url = "search"
     weight = 10
-    pre = "<i class='fas fa-search'></i>"
+  [[menu.main]]
+    name = "Início"
+    url = "https://cassionhieg.live"
+    weight = 10
 
 [params]
   # ======================
@@ -20,7 +23,10 @@ enableRobotsTXT = true
   defaultTheme = "auto"
   description = "Blog do Cássio"
   editURL = "https://github.com/AngryPlayer04/blog/edit/main/content/" # Opcional: link para edição
-
+  ogImage = "/static/logo.png"
+  env = "production"
+[params.assets]
+  favicon = "/static/logo.png"
   # ======================
   # HomeInfo (Seção de Boas-Vindas)
   # ======================
@@ -52,7 +58,6 @@ enableRobotsTXT = true
     Linkedin = true
     WhatsApp = true
     Telegram = true
-
 
   # ======================
   # Capas dos Posts
@@ -94,3 +99,8 @@ enableRobotsTXT = true
 [imaging]
   quality = 85 # Qualidade das imagens processadas
   resampleFilter = "Lanczos" # Algoritmo de redimensionamento
+
+
+[module]
+  [[module.imports]]
+    path = 'github.com/hugo-mods/icons'
