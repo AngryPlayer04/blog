@@ -1,7 +1,7 @@
 baseURL = 'https://blog.cassionhieg.live'
 languageCode = 'pt-br'
 title = 'Blog do Cássio'
-theme = 'papermod'
+theme = 'PaperMod'
 defaultContentLanguage = 'pt-br'
 enableRobotsTXT = true
 
