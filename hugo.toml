@@ -100,7 +100,3 @@ enableRobotsTXT = true
   quality = 85 # Qualidade das imagens processadas
   resampleFilter = "Lanczos" # Algoritmo de redimensionamento
 
-
-[module]
-  [[module.imports]]
-    path = 'github.com/hugo-mods/icons'
