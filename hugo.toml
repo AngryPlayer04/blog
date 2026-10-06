@@ -1,4 +1,4 @@
-baseURL = 'https://blog.cassionhieg.live'
+baseURL = 'https://blog.mark4p.top'
 languageCode = 'pt-br'
 title = 'Blog do Cássio'
 theme = 'PaperMod'
@@ -13,7 +13,7 @@ enableRobotsTXT = true
     weight = 10
   [[menu.main]]
     name = "Início"
-    url = "https://cassionhieg.live"
+    url = "https://mark4p.top"
     weight = 10
 
 [params]
